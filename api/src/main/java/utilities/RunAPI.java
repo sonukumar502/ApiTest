@@ -12,7 +12,7 @@ public class RunAPI {
 		if(!url.equals(null)) {
 			response=Unirest.get(url).asString();
 		}}catch(Exception e){
-			
+			//e.printStackTrace();
 		}
 		if(response!=null) {
 			responseString=response.getBody();
