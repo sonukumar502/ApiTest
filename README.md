@@ -18,4 +18,8 @@
 # Steps to run the code:
 1. Maven CLEAN INSTALL runs the testng.xml file and runs the code in 5 parallel nodes
 
+# Some Details of Run
+1. Console will display the comparison results
+2. Currently executed for about 1100 Urls and it took around 65 secs. It can be reduced more if I increase the number the nodes(Currently 5)
+
 
